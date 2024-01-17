@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:wght@200&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steam Deck</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header id="header">
+    <div id="img-div">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Steam_Deck_colored_logo.svg/266px-Steam_Deck_colored_logo.svg.png?20221028131028" id="header-img" loading="lazy" alt="Steam Deck logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#Features">Features</a></li>
+        <li><a  class="nav-link" href="#How-it-works">How it works</a></li>
+        <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+      <h1>All-in-one portable PC gaming</h1>
+      <h3>Sign in with your steam account</h3>
+      <input id="email" type="email" name="email" id="steam-email" placeholder="Email"  > 
+      <input type="password" name="steam-password" id="steam-password" placeholder="Password">
+      <input type="submit" value="Sign in" id="submit">
+    </form>
+
+    <section id="Features">
+
+    <div id="text">
+      <div id="icon"> <i class="fa-solid fa-bolt"></i> </div>
+      <div id="description">
+      <h3>Portability meets power</h3>
+      <p>We partnered with AMD to create Steam Deck's custom APU, optimized for handheld gaming. It is a Zen 2 + RDNA 2 powerhouse, delivering more than enough performance to run the latest AAA games in a very efficient power envelope.</p>
+      </div>
+    </div>
+    
+    <div id="text">
+      <div id="icon"><i class="fa-solid fa-download"></i></div>
+      <div id="description">
+      <h3>Your Steam Library, anywhere</h3>
+      <p>Once you've logged into Steam Deck, your entire Steam Library shows up, just like any other PC. You'll also see the compatibility rating of each game, indicating the kind of experience you can expect when playing. You can dynamically filter any view in your library by compatibility rating if you're looking for specific sorts of experiences.</p>
+      </div>
+    </div>
+
+    <div id="text">
+      <div id="icon"><i class="fa-solid fa-gamepad"></i> </div>
+      <div id="description">
+      <h3>PControl with comfort</h3>
+      <p>The Steam Deck was built for extended play sessions—whether you're using thumbsticks or trackpads—with full-size controls positioned perfectly within your reach. The rear of the device is sculpted to comfortably fit a wide range of hand sizes.</p>
+      </div>
+    </div>
+
+    </section>
+
+    <div id="How-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7_0SnbF_MhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <h1 id="choice">Choose your Steam Deck</h1>
+    <div id="Pricing">
+      <div id="prices">
+        <div id="price-title">
+        <h3>64GB eMMC</h3>
+        <h4>419,00€</h4>
+        </div>
+        <ul>
+          <li>Carrying case</li>
+        </ul>
+        <button id="price-button">Select</button>
+      </div>
+      <div id="prices">
+        <div id="price-title">
+         <h3>256GB NVMe SSD</h3>
+         <h4>549,00€</h4>
+         </div>
+        <ul>
+          <li>Faster storage</li>
+          <li>Carrying case</li>
+          <li>Exclusive Steam Community profile bundle</li>
+        </ul>
+        <button id="price-button">Select</button>
+      </div>
+      <div id="prices">
+        <div id="price-title">
+         <h3>512GB NVMe SSD</h3>
+         <h4>679,00€</h4>
+        </div>
+        <ul>
+          <li>Fastest storage</li>
+          <li>Premium anti-glare etched glass</li>
+          <li>Exclusive carrying case</li>
+          <li>Exclusive Steam Community profile bundle</li>
+          <li>Exclusive virtual keyboard theme</li>
+        </ul>
+        <button id="price-button">Select</button>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
